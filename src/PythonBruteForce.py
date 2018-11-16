@@ -61,6 +61,6 @@ else:
     print("CODIGO NO ENCONTRADO")
 
 #Obtener tiempo medio
-tiempoMedio = float(stop - start) #calculo del tiempo medio
+tiempoMedio = float(stop - start)*1000 #calculo del tiempo medio
 msgTiempoMedio = str(tiempoMedio) #no se puede imprimir strig + float (casteo del tiempo a string)
 print("El tiempo medio ha sido " + msgTiempoMedio + " milisegundos\n")
